@@ -23,12 +23,6 @@ package easy;
  */
 public class Solution_67
 {
-    public static void main(String[] args)
-    {
-        Solution_67 s = new Solution_67();
-        System.out.println(s.addBinary("1010", "1011"));
-    }
-
     public String addBinary(String a, String b)
     {
         StringBuilder sb = new StringBuilder();
